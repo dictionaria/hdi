@@ -1,7 +1,7 @@
 
 # Hdi dictionary
 
-by Zygmunt Frajzyngier and Paul Eguchi and Roger Prafé and Megan Schwabauer with Erin Shay and Henry Tourneux
+> by Zygmunt Frajzyngier and Paul Eguchi and Roger Prafé and Megan Schwabauer with Erin Shay and Henry Tourneux
 
 This repository contains the data underlying the published version of the dictionary
 at [Dictionaria](https://dictionaria.clld.org/contributions/hdi) as 
