@@ -1,35 +1,35 @@
 ID,Language_ID,Primary_Text,Analyzed_Word,Gloss,Translated_Text,Meta_Language_ID,Comment,Media_IDs,Sense_IDs
 XV000001,xed,bə̀rzlú- bə̀rzlà,,,the water ran,,,,SN000002
 XV000002,xed,bə̀rzl-íŋ-bə̀rzlà,,,he ran the water,,,,SN000002
-XV000003,xed,bgà hlká dùsúm,,,"bundle of stalks of corn, or of wood",,,,SN000004
-XV000004,xed,bgà xàsú’ù,,,firewood,,,,SN000004
+XV000003,xed,bgà hlká dùsúm,,,"bundle of stalks of corn, or of wood",,,c6061d8fcb13d5ec294d389dc84692f6,SN000004
+XV000004,xed,bgà xàsú’ù,,,firewood,,,d03b4b1f9c67ac6df1e9cf45a8cf836d,SN000004
 XV000005,xed,ɓàlà-ghú-ná-p-ɓàlà,,,he broke you (pl),,,,SN000006
-XV000006,xed,ɓlà-ná-p-ɓlà,,,"he broke something into two parts, cannot be used with first person plural",,,,SN000006
+XV000006,xed,ɓlà-ná-p-ɓlà,,,"he broke something into two parts, cannot be used with first person plural",,,fc0e12c5e0114be3f327bab3b6ac4257,SN000006
 XV000007,xed,*ɓlà-ŋ-ná-p-ɓlà,,,for 'he broke us',,,,SN000006
-XV000008,xed,ɓlá,,,break!,,,,SN000006
-XV000009,xed,ɓlá-ɓlà,,,"he broke (something), break!",,,,SN000006
-XV000010,xed,ɓlà-gá-ghà-ɓlà,,,break and bring here,,,,SN000006
-XV000011,xed,ɓlá-ghá-ɓlá,,,break and go,,,,SN000006
-XV000012,xed,ɓlá-gh-ó-ɓlá,,,get broken,,,,SN000006
-XV000013,xed,ɓlà-k-ɓlà,,,break and bring,,,,SN000006
-XV000014,xed,ɓlá-m-ɓlà,,,break something while putting it in,,,,SN000006
+XV000008,xed,ɓlá,,,break!,,,1c81eba5d4afdf405aada7528c122899,SN000006
+XV000009,xed,ɓlá-ɓlà,,,"he broke (something), break!",,,a236be6f38848ce3e9c8ded9023489a3,SN000006
+XV000010,xed,ɓlà-gá-ghà-ɓlà,,,break and bring here,,,92c4544a9ed6e5c66cfe500b281a8a4d,SN000006
+XV000011,xed,ɓlá-ghá-ɓlá,,,break and go,,,109a1be029f6153312b2436f47c2771f,SN000006
+XV000012,xed,ɓlá-gh-ó-ɓlá,,,get broken,,,c530d5879bdf0c4b5468754c061ae729,SN000006
+XV000013,xed,ɓlà-k-ɓlà,,,break and bring,,,bb75bf865a0e4e4cef7f44e3933087ec,SN000006
+XV000014,xed,ɓlá-m-ɓlà,,,break something while putting it in,,,fa917bebce0cdac74b5cb410bd239c13,SN000006
 XV000015,xed,ɓlá-ná-f-ɓlà,,,"break something to give a part to somebody, in imperative it has an offensive meaning",,,,SN000006
-XV000016,xed,ɓlá-ná-ghá-ɓlá,,,break and add,,,,SN000006
+XV000016,xed,ɓlá-ná-ghá-ɓlá,,,break and add,,,358a42c0b36f4a69bf23827c27269476,SN000006
 XV000017,xed,ɓlà-ná-p-ɓlà,,,break into two,,,,SN000006
 XV000018,xed,ɓl-íŋ-ɓlà,,,break and leave,,,,SN000006
 XV000019,xed,ɓl-ú-ɓlà lìgàmà yá fú yá,,,a branch of that tree has broken,,,,SN000012
-XV000020,xed,brá ghàtálàkw,,,a brood of chickens,,,,SN000016
-XV000021,xed,brá gùxà,,,a herd of goats,,,,SN000016
-XV000022,xed,brá twàk,,,a herd of sheep,,,,SN000016
-XV000023,xed,ɓxà-dá-gh-í ɓxà-dá-gh-í tví,,,I did not pass by there,,,,SN000017
+XV000020,xed,brá ghàtálàkw,,,a brood of chickens,,,1de72370f2bc84f20a8cddd575f436fd,SN000016
+XV000021,xed,brá gùxà,,,a herd of goats,,,7bbee00df074e53bb27909eb0974c2f8,SN000016
+XV000022,xed,brá twàk,,,a herd of sheep,,,de86d8a905fcfb285d268aebb70e2e98,SN000016
+XV000023,xed,ɓxà-dá-gh-í ɓxà-dá-gh-í tví,,,I did not pass by there,,,5ac97c9f679ac83f4028c980cd4ad9d7,SN000017
 XV000024,xed,ɓxà-dá-gh-íyù tví tsá wà,,,I did not get there,,,,SN000017
-XV000025,xed,bí-dí-ɗí-f-bà,,,he built for me/ build for me!,,,,SN000019
+XV000025,xed,bí-dí-ɗí-f-bà,,,he built for me/ build for me!,,,f2b1ba1a9d1aad40b2456ab541d006a7,SN000019
 XV000026,xed,bí-dí-ɗí-f-bà tá xgá,,,he built me a house,,,,SN000019
 XV000027,xed,bà-ná-f-bà,,,build for someone,,,,SN000019
 XV000028,xed,bà-n-bà,,,he participated somewhat in construction,,,,SN000019
-XV000029,xed,bá-bà-f-bá-bà,,,pl. ‘he built many things’ (not the same thing many times),,,,SN000019
+XV000029,xed,bá-bà-f-bá-bà,,,pl. ‘he built many things’ (not the same thing many times),,,51636237bfbe1be51b8d5ca7847ede3d,SN000019
 XV000030,xed,b-ù-bá tá xgà yà,,,the house has been built,,,,SN000019
-XV000031,xed,bàbà tá ghúvì,,,he defecated a lot,,,,SN000019
+XV000031,xed,bàbà tá ghúvì,,,he defecated a lot,,,9873995825c821a62463567031f89ec2,SN000019
 XV000032,xed,kà bádz-í-ŋ-bádzá kúní,,,if you (pl) spoil it,,,,SN000024
 XV000033,xed,bá-bádz-ú-bá-bádzá,,,things got spoiled,,,,SN000024
 XV000034,xed,bádz-ú-bádzá,,,get spoiled,,,,SN000024
@@ -40,21 +40,21 @@ XV000038,xed,ɓádz-ú-ɓádzá,,,get spoiled,,,,SN000025
 XV000039,xed,ɓá ɓádz-ú-ɓáɓádzá,,,they got spoiled,,,,SN000025
 XV000040,xed,ɓádz-ú-ɓádzá mwátà,,,the car got spoiled,,,,SN000025
 XV000041,xed,ɓádz-íŋ-ɓádzá tá mótà,,,he ruined the car,,,,SN000025
-XV000042,xed,bághá-f-bágh-í,,,I was satisfied,,,,SN000031
+XV000042,xed,bághá-f-bágh-í,,,I was satisfied,,,bfa2c4f691771c1ac39a737293db4f0f,SN000031
 XV000043,xed,bághà-ná-f-tà,,,having satiated him,,,,SN000031
 XV000044,xed,bú-búkwá-ná-ghá-bú-búkwá,,,he covered many things,,,,SN000033
 XV000045,xed,búkw-áf-tà,,,cover something,,,,SN000033
 XV000046,xed,búkwá-vá-búkwà,,,cover onself,,,,SN000033
-XV000047,xed,búkwá-vá-búkw-í tá lgùt,,,I covered myself with a cloth,,,,SN000033
+XV000047,xed,búkwá-vá-búkw-í tá lgùt,,,I covered myself with a cloth,,,50d24004ff98e091c0088972f7cdc38e,SN000033
 XV000048,xed,ɓàràká ɓàràká,,,to trot,,,,SN000043
 XV000049,xed,ɓàràká-f-ɓàràkú lú tá tsá xàlá tá mndú tá mtútà yá,,,one celebrated (through a trotting dance) the advanced age of the dead person,,,,SN000043
-XV000050,xed,ɓàsá másáɓì,,,to have a cold,,,,SN000044
-XV000051,xed,bátá-f-bátá tá mákwà,,,he succesfully courted a girl,,,,SN000046
+XV000050,xed,ɓàsá másáɓì,,,to have a cold,,,f65e5952d1eb4eba25b7e2670532a146,SN000044
+XV000051,xed,bátá-f-bátá tá mákwà,,,he succesfully courted a girl,,,6ef8f8d77e57f6046077068054f783b2,SN000046
 XV000052,xed,bátá-n-bátá tá mákwà,,,he courted a girl unsuccesfully (not: he tried to court a girl),,,,SN000046
-XV000053,xed,ɓézdà-ná-ɡhá-ɓézdà,,,add more,,,,SN000047
-XV000054,xed,ɓézdà-vá-ɡhá-ɓézdà,,,things increased,,,,SN000047
+XV000053,xed,ɓézdà-ná-ɡhá-ɓézdà,,,add more,,,4d6cedede59f75bbebc790770ee941f3,SN000047
+XV000054,xed,ɓézdà-vá-ɡhá-ɓézdà,,,things increased,,,1adffd539a7fea13dd9e8fe3827937cc,SN000047
 XV000055,xed,bézlá-xə̀n mìstá-táŋ,,,they followed them,,,,SN000048
-XV000056,xed,də̀ɗàkwá fìtík,,,sunset,,,,SN000052
+XV000056,xed,də̀ɗàkwá fìtík,,,sunset,,,830c27be67533162c697c21cac05b491,SN000052
 XV000057,xed,mbàɗ ká-xə̀n tàmá kà dghàɗ-áy,,,and now they are chewing it (the beans),,,,SN000067
 XV000058,xed,dgà-ná-dgá tá xàsú’ù,,,he separated the wood,,,,SN000068
 XV000059,xed,dgá-v-ghá,,,separation,,,,SN000068
@@ -69,9 +69,9 @@ XV000067,xed,"ɗg-áy-ɗg-áy, ɗg-áy-tán ɗgá ɗgá",,,threshing,,,,SN000070
 XV000068,xed,ɗgà-ná-f-ɗgà,,,thresh,,,,SN000070
 XV000069,xed,dmà-ná-f-dmà,,,"he disobeyed, plural through reduplication and a insertion,",,,,SN000072
 XV000070,xed,dá-d-á-mà-ná-f-dá-d-á-mà,,,he didn’t follow the prescribed order of activities in a ceremony,,,,SN000072
-XV000071,xed,dmákú,,,"offense, sin",,,,SN000072
+XV000071,xed,dmákú,,,"offense, sin",,,537e19714eefa572929cb32579d5169b,SN000072
 XV000072,xed,dr-ú-drá xàsúù,,,the wood burned,,,,SN000077
-XV000073,xed,drá-ghú-drá tá nìvì,,,he burned firewood only,,,,SN000077
+XV000073,xed,drá-ghú-drá tá nìvì,,,he burned firewood only,,,6960a1646fad88c810f6aaff3d817a9b,SN000077
 XV000074,xed,d-ríŋ-drá tá xàsú’ú,,,he burned wood,,,,SN000077
 XV000075,xed,drá-ghú-drá t nìví,,,"he burned only firewood, the other things that were nearby he left",,,,SN000077
 XV000076,xed,drá-drà tá xàsú’ú,,,he burned wood in order to get charcoal,,,,SN000077
@@ -137,8 +137,8 @@ XV000135,xed,dúkw-áf-ndá-dúkw-ì tá sághá-nì,,,I became unexpectedly awa
 XV000136,xed,dálà-f-dálà,,,"he fixed many things, he fixed something",,,,SN000211
 XV000137,xed,dúlá krámásá,,,rifle (literally: 'horn for pepper'),,,,SN000213
 XV000138,xed,dí-díngà-f-dí-díngà tá mbízà,,,"she put the beans on fire, cannot be used with sígà ‘pot’ as an object.",,,,SN000226
-XV000139,xed,dà-ná-ghá-dà,,,cook more,,,,SN000228
-XV000140,xed,dà-p-dà,,,cook well,,,,SN000228
+XV000139,xed,dà-ná-ghá-dà,,,cook more,,,a00d901bcc4471c72a85d55e9b4a3c61,SN000228
+XV000140,xed,dà-p-dà,,,cook well,,,34f772a802667833e2bbd1e4ecd426bd,SN000228
 XV000141,xed,ɗáwá-f-tà,,,he asked and received,,,,SN000236
 XV000142,xed,ɗáwà-n-tà,,,try to ask,,,,SN000236
 XV000143,xed,ɗáwá-úgh-tà,,,deprive somebody of something through asking,,,,SN000236
@@ -264,8 +264,8 @@ XV000262,xed,hlə̀gú-fhlə̀gà,,,it has been planted,,,,SN000482
 XV000263,xed,hlə̀gà-f-hlə̀gá-xə̀n,,,they planted,,,,SN000482
 XV000264,xed,hlə̀vá-p-hlə̀vá,,,he whipped him well,,,,SN000485
 XV000265,xed,"hlə̀v-í-ɗ-í-p-hlə̀vá ndá sná-ká rí sárák, hlə̀v-í-ɗ-í-p-hlə̀vá",,,"You understand, stick, hit them for me",,,,SN000485
-XV000266,xed,hlgà-f- hlgà,,,he planted up a large portion of a field,,,,SN000487
-XV000267,xed,hlgàhlgà,,,plant here!,,,,SN000487
+XV000266,xed,hlgà-f- hlgà,,,he planted up a large portion of a field,,,8f885758533cac6c5ca2596160f192ac,SN000487
+XV000267,xed,hlgàhlgà,,,plant here!,,,ef86268ea132e4c324013d0805093712,SN000487
 XV000268,xed,hlr-ú-hlrà tá pìtsákw,,,he forged himself a hoe,,,,SN000497
 XV000269,xed,hlrá-f-xà-tá tsá ghùzú yá tìdà,,,he poured a bit of beer upon it,,,,SN000497
 XV000270,xed,hlà-hlà,,,"he fell, he found",,,,SN000502
@@ -286,7 +286,7 @@ XV000284,xed,hlàɗá-f-hlàɗá,,,one has to comb,,,,SN000510
 XV000285,xed,hlàɗá-gá-f-hlàɗà,,,one has to trim up,,,,SN000510
 XV000286,xed,hlàɗá-ná-ghà-hlàɗá,,,trim more,,,,SN000510
 XV000287,xed,hlàɗ-íŋ-hlàɗá,,,trim away,,,,SN000510
-XV000288,xed,hlìglá hlìglá xwáyá tá mndú,,,Hoya stabbed somebody,,,,SN000514
+XV000288,xed,hlìglá hlìglá xwáyá tá mndú,,,Hoya stabbed somebody,,,26df0f2affb16f5bb3220d75e19dbf14,SN000514
 XV000289,xed,hlìngwí-n-hlìngwà,,,he pushed him,,,,SN000520
 XV000290,xed,hlìngwí-n-ís-hlìngwá,,,he pushed him,,,,SN000520
 XV000291,xed,hlìngw-í-ɗí-s-hlìngwà,,,he pushed me around,,,,SN000520
@@ -307,8 +307,8 @@ XV000305,xed,hlí’yà-dá-ghà,,,arrive,,,,SN000528
 XV000306,xed,hlí’yà-vá-úgh,,,"leave, about a part of the subjects,",,,,SN000528
 XV000307,xed,hlì’yà-dá-p-wà-hlì’yà,,,get out of there,,,,SN000528
 XV000308,xed,hlyànhlyà,,,raise something,,,,SN000528
-XV000309,xed,hlí’íà-gá-p-tà,,,leave from,,,,SN000529
-XV000310,xed,hlì’íà-dá-ghà-tà,,,leave in order to arrive somewhere,,,,SN000529
+XV000309,xed,hlí’íà-gá-p-tà,,,leave from,,,79e1a457dc85f3c5f2b7c12efde65f4e,SN000529
+XV000310,xed,hlì’íà-dá-ghà-tà,,,leave in order to arrive somewhere,,,5fa5acc20b0197e41d824ece56954438,SN000529
 XV000311,xed,kà hlì’ìà-gá-tà xǝ̀n,,,"'and they descended', this verbal form is used preferably with plural subject: 'hlí’í hlí’í'",,,,SN000529
 XV000312,xed,hpàɗá tá úrnà,,,chew the peanuts,,,,SN000533
 XV000313,xed,hrf-ú-hrfá,,,he got tired,,,,SN000535
@@ -348,10 +348,10 @@ XV000346,xed,jíkí,,,I am sated,,,,SN000567
 XV000347,xed,jík-xǝ̀n,,,"they are sated, no reduplicated form, in the third person singular only stative form is possible",,,,SN000567
 XV000348,xed,ndá jíká,,,"he is satisfied, sated",,,,SN000567
 XV000349,xed,kɗá-kɗà,,,he finished,,,,SN000569
-XV000350,xed,kɗá-ná-kɗà,,,he finished it,,,,SN000569
+XV000350,xed,kɗá-ná-kɗà,,,he finished it,,,41330133a8d886260a6fd713d49fd003,SN000569
 XV000351,xed,kɗàkwánì,,,it is its end,,,,SN000569
 XV000352,xed,kɗ-áf-kɗà,,,'it ended on it' e.g. rain ended falling ungrammatical with 'va',,,,SN000569
-XV000353,xed,kɗághwkɗá,,,he finished it,,,,SN000569
+XV000353,xed,kɗághwkɗá,,,he finished it,,,a803c2f36a14d4b766e4a84063708fd2,SN000569
 XV000354,xed,kɗá-f-kɗá sárák,,,the whip finished,,,,SN000569
 XV000355,xed,zwán tá kɗ-í-ŋ-tá dzáŋgá gà,,,a child who finished his studies,,,,SN000569
 XV000356,xed,kɗ-ìxà-kɗà,,,he finished me,,,,SN000569
@@ -375,8 +375,8 @@ XV000373,xed,klá mákwà,,,"take a woman, i.e. marry; not *klá zà’ál for �
 XV000374,xed,tá klá-f-tá màràkw xìs,,,(a chief) who married two wives,,,,SN000588
 XV000375,xed,klà-dá-klà,,,he brought,,,,SN000588
 XV000376,xed,klá-f-klà tà ghəŋá ní,,,he brought something on his head,,,,SN000588
-XV000377,xed,klá-f-klà,,,he took (something) away,,,,SN000588
-XV000378,xed,klà-gá-ghàklà,,,he brought,,,,SN000588
+XV000377,xed,klá-f-klà,,,he took (something) away,,,82dd2fb886be06c60e91c69cf68278b2,SN000588
+XV000378,xed,klà-gá-ghàklà,,,he brought,,,1ab49c08182f6cb3a5dc997b39e730fc,SN000588
 XV000379,xed,klá-gh-w-klá,,,he uprooted it,,,,SN000588
 XV000380,xed,klà-k-klà,,,bring here,,,,SN000588
 XV000381,xed,ksá-f-ksá tá gù,,,he caught a goat,,,,SN000611
@@ -412,7 +412,7 @@ XV000410,xed,kzlà-n-kzlà,,,'il l'a attendu'; pas de codage morphologique pour 
 XV000411,xed,kál-ɗí-f-kálá,,,it tormented me; ungrammatical with first person object realized by 'i' only,,,,SN000691
 XV000412,xed,"*kál-í-f-kálá, kálá-ghá-kálá",,,it tormented him,,,,SN000691
 XV000413,xed,kà kál-ɗí-f-tá-xǝ̀n,,,they tormented me,,,,SN000691
-XV000414,xed,kálá-tá ghǝ́ŋ,,,disobey,,,,SN000691
+XV000414,xed,kálá-tá ghǝ́ŋ,,,disobey,,,4d3d452c857ad540030a07140559a39f,SN000691
 XV000415,xed,tà kúmà-í tá kághà,,,I love you,,,,SN000696
 XV000416,xed,tà kúmày tá kóbò,,,he wants money,,,,SN000696
 XV000417,xed,kúmà-n-kúmà,,,'he loved a bit' or 'he tried to love',,,,SN000696
@@ -424,10 +424,10 @@ XV000422,xed,kàp-ú-kàpá,,,'he is arrogant' or 'he got up above others',,,,SN
 XV000423,xed,kúrzlá-xə̀n tá ghə́ŋ,,,they took the meat off the head (of a cow),,,,SN000703
 XV000424,xed,kásá,,,take them!,,,,SN000708
 XV000425,xed,kásá kásá,,,it (e.g. leopard) killed many animals,,,,SN000708
-XV000426,xed,kásá klìpí,,,catch fish!,,,,SN000708
+XV000426,xed,kásá klìpí,,,catch fish!,,,c34168c7d7abfc871684477071f33a21,SN000708
 XV000427,xed,kátá ghə́ŋ,,,save oneself,,,,SN000712
 XV000428,xed,kátà-n-tà,,,help a bit,,,,SN000712
-XV000429,xed,kátá-kátá,,,he helped,,,,SN000712
+XV000429,xed,kátá-kátá,,,he helped,,,0d43b9dbe88de8d43abdf7c035d28ded,SN000712
 XV000430,xed,kátà-n-kátà tá mbítsà,,,he helped Mbitsa,,,,SN000712
 XV000431,xed,kùzlà-n-kùzlà,,,it ached him,,,,SN000725
 XV000432,xed,kùzlà-n-áf-kùzlà,,,"it ached him, the same meaning as preceding",,,,SN000725
@@ -498,10 +498,10 @@ XV000496,xed,mndà-vá-f-mndà,,,it (rope) got squeezed because of the movement 
 XV000497,xed,mndì-ɗí-f-mndà tá dzvù,,,"he wrung my hand, ungrammatical without extensions *mndà-mndà",,,,SN000827
 XV000498,xed,mndà-ná-f-mndà tá lgùt,,,il a tordu le tissu,,,,SN000831
 XV000499,xed,mná-ná-mnà,,,he told him,,,,SN000832
-XV000500,xed,mnà-dá-mnà,,,tell somebody who is below,,,,SN000832
-XV000501,xed,mná-f-mnà,,,he accused him,,,,SN000832
-XV000502,xed,mnà-gá-f-mnà,,,tell somebody who is in a higher position than the speaker,,,,SN000832
-XV000503,xed,mnàgághàmnà,,,"tell from afar, send a message",,,,SN000832
+XV000500,xed,mnà-dá-mnà,,,tell somebody who is below,,,c9d9f886c40820d437426a7dc55df284,SN000832
+XV000501,xed,mná-f-mnà,,,he accused him,,,f856e661a4f70d0962131b6686454a15,SN000832
+XV000502,xed,mnà-gá-f-mnà,,,tell somebody who is in a higher position than the speaker,,,14c456b78a1dc099994f323daa14972c,SN000832
+XV000503,xed,mnàgághàmnà,,,"tell from afar, send a message",,,74b71020a24b8bd1500ba621250a7ccc,SN000832
 XV000504,xed,mná-mnà,,,he said,,,,SN000832
 XV000505,xed,mná-nà-ghá-mná,,,he told him again,,,,SN000832
 XV000506,xed,mtà-ná-mtà tá vù,,,he doused the fire,,,,SN000838
@@ -513,22 +513,22 @@ XV000511,xed,mídzá-ghá,,,your mother-in-law,,,,SN000865
 XV000512,xed,mídzání,,,mother-in-law,,,,SN000865
 XV000513,xed,mídzáɗá,,,my mother-in-law,,,,SN000865
 XV000514,xed,mágá mágá tá hlnà ínà,,,he worked well,,,,SN000876
-XV000515,xed,"mágá-f-mágá, mágá mágá",,,he made something,,,,SN000876
+XV000515,xed,"mágá-f-mágá, mágá mágá",,,he made something,,,eb2f137505b8bcf2ed2f63d952e3a0e9,SN000876
 XV000516,xed,mágà-n-mágà,,,he tried to do something,,,,SN000876
 XV000517,xed,mágə́-glá-f-mágá,,,he redid (something),,,,SN000876
-XV000518,xed,mákwà míjì,,,fiancée,,,,SN000892
-XV000519,xed,màlànághámàlá,,,he surpassed him,,,,SN000899
+XV000518,xed,mákwà míjì,,,fiancée,,,fdfa3c7c5ecb75006a78ceb0dd035f4e,SN000892
+XV000519,xed,màlànághámàlá,,,he surpassed him,,,1a99bdd9342b24968196cb56b517fc44,SN000899
 XV000520,xed,màlà-ghú-màlá,,,he surpassed,,,,SN000899
 XV000521,xed,màlà-w-gh-màlá mbítsá kà índà mdùhà,,,Mbitsa surpassed everybody,,,,SN000899
 XV000522,xed,màlà-w-gh-màlá tá mbítsá,,,he surpassed Mbitsa,,,,SN000899
 XV000523,xed,màlá-gh-ú-màlà,,,you surpass,,,,SN000899
-XV000524,xed,"mànáy, màná-f-màná, màná-màná",,,he lied,,,,SN000916
+XV000524,xed,"mànáy, màná-f-màná, màná-màná",,,he lied,,,a7753c29f82f7a3079710b51275a47f0,SN000916
 XV000525,xed,màn-íxà-màná,,,"he lied to me, see also 'tsákálá': lie",,,,SN000916
-XV000526,xed,màráy,,,no reduplicated form without extension,,,,SN000921
+XV000526,xed,màráy,,,no reduplicated form without extension,,,aeb6664afa8c595eb1d7b2d6f2deaec0,SN000921
 XV000527,xed,"màrá màrá, màrá-n-màrá tá màràkw",,,he pointed to a woman,,,,SN000921
 XV000528,xed,màr-íxà-màrá,,,he has shown something to me,,,,SN000921
-XV000529,xed,màrá,,,show!,,,,SN000921
-XV000530,xed,màràkw tà dá kwàsáy’,,,woman preparing bean cakes,,,,SN000922
+XV000529,xed,màrá,,,show!,,,38f9bdb0bd482432325c5cacadba30a0,SN000921
+XV000530,xed,màràkw tà dá kwàsáy’,,,woman preparing bean cakes,,,bd197e6fc08a33feb098f6e2aceee139,SN000922
 XV000531,xed,mìstà fú,,,under a tree,,,,SN000925
 XV000532,xed,"másə́-gl- más-ú-n-ú-s-másà tá rdí tà wùbìsím, kà másə́-gl-tá-tsí",,,and he was again applying the ointment,,,,SN000928
 XV000533,xed,másá,,,applique!,,,,SN000928
@@ -565,8 +565,8 @@ XV000563,xed,ndá mbrá,,,be strong,,,,SN000985
 XV000564,xed,ndá mtá,,,be dead,,,,SN000985
 XV000565,xed,sághú ndá xwáyá,,,"he returned running!, serves as numeral formative to form numerals between 11 and 19, in the construction 'ghwán' (10) 'ndá num'",,,,SN000985
 XV000566,xed,"ndànáy, kà ndàná-p-tá tsí",,,and he thought,,,,SN000992
-XV000567,xed,ndànághándàná,,,he went and returned with his thoughts,,,,SN000992
-XV000568,xed,ndànà-k-ndànà,,,he came with his thoughts,,,,SN000992
+XV000567,xed,ndànághándàná,,,he went and returned with his thoughts,,,949ef1735a2a3c042693de4598273366,SN000992
+XV000568,xed,ndànà-k-ndànà,,,he came with his thoughts,,,8d93874598b9f5bbc5cf3af0bfe6da1c,SN000992
 XV000569,xed,ndàná-p-ndàná kà màrkwátàŋ,,,he thought about his wife,,,,SN000992
 XV000570,xed,gì ndús ká mbítsá sághà,,,Mbitsa came suddenly,,,,SN000998
 XV000571,xed,ndùsá xgà,,,a close house,,,,SN000999
@@ -681,7 +681,7 @@ XV000679,xed,sá-ghú-sá,,,he returned from,,,,SN001171
 XV000680,xed,sá-bà á wà,,,he did not come out,,,,SN001171
 XV000681,xed,sù-ú-sà,,,let us drink!,,,,SN001172
 XV000682,xed,gá sìdí,,,make bad things to somebody,,,,SN001174
-XV000683,xed,tà sìdí,,,"he is nasty, lit. he is in meanness",,,,SN001174
+XV000683,xed,tà sìdí,,,"he is nasty, lit. he is in meanness",,,093f62ccc692b3c78fb3150eb014345f,SN001174
 XV000684,xed,súɗà súɗà,,,'he got undressed' or 'get undressed!',,,,SN001175
 XV000685,xed,súɗ-íŋ-súɗà,,,he took off,,,,SN001175
 XV000686,xed,súɗ-íŋ-súɗà tá xùtà,,,he took off the skin,,,,SN001175
@@ -698,10 +698,10 @@ XV000696,xed,tsɗá-tsɗà,,,to gather in one place and put in another,,,,SN0012
 XV000697,xed,tsɗá hpú,,,to gather flour,,,,SN001239
 XV000698,xed,tsə́lɓá tsə́lɓá,,,he kneeled,,,,SN001242
 XV000699,xed,tsə́lɓá-ná-tsə́lɓá,,,he made him kneel down,,,,SN001242
-XV000700,xed,tsghá lwì,,,send a message,,,,SN001245
-XV000701,xed,tsghà-gá-ghà-tsghà,,,he sent something,,,,SN001245
+XV000700,xed,tsghá lwì,,,send a message,,,a56fb190bd028ade6dd2464f486d9337,SN001245
+XV000701,xed,tsghà-gá-ghà-tsghà,,,he sent something,,,28e1f7aad8d89744df9151f5100ece3c,SN001245
 XV000702,xed,tsghá-ghá-tsghá,,,he sent out,,,,SN001245
-XV000703,xed,tsghá-gh-ò-tsghá,,,he sent already,,,,SN001245
+XV000703,xed,tsghá-gh-ò-tsghá,,,he sent already,,,1c7a0aeda48bc0acf446999d62227dd5,SN001245
 XV000704,xed,tsghà-k-tsghà tá ceedì,,,'he sent money in,,,,SN001245
 XV000705,xed,tsghá-m-tsghá,,,he put the hand in,,,,SN001245
 XV000706,xed,tsghà-n-tsghà,,,he tried to send,,,,SN001245
@@ -751,10 +751,10 @@ XV000749,xed,tághá-ná-tághá,,,one has to teach him,,,,SN001316
 XV000750,xed,tágh-ú-tághá,,,to learn everything,,,,SN001316
 XV000751,xed,tághá-f-tághá tá ɗáxà kèkì,,,she learned to sew on a sewing machine,,,,SN001316
 XV000752,xed,mà tágh-ká tá skál-á m`ndú,,,don’t learn the dance of others i.e. go your own way,,,,SN001316
-XV000753,xed,túkwá-f-túkwá,,,shake and gather,,,,SN001320
-XV000754,xed,túkwà-gá-ghà-túkwà,,,shake and bring,,,,SN001320
+XV000753,xed,túkwá-f-túkwá,,,shake and gather,,,4c616c6363e253c7658b774b32a85679,SN001320
+XV000754,xed,túkwà-gá-ghà-túkwà,,,shake and bring,,,bc6ea16ec1547241bef0b66c765abdde,SN001320
 XV000755,xed,túkwá-gá-túkwà,,,secouer et apporter vers ici,,,,SN001320
-XV000756,xed,túkwá-k-túkwà,,,secouer vers ici,,,,SN001320
+XV000756,xed,túkwá-k-túkwà,,,secouer vers ici,,,db234a5e1b3cfa0c1b265ca3e387d989,SN001320
 XV000757,xed,túkwá-m-túkwá,,,shake the dust,,,,SN001320
 XV000758,xed,túkwá-p-túkwá,,,shake out,,,,SN001320
 XV000759,xed,túkw-ín-túkwá,,,secoue,,,,SN001320
@@ -763,7 +763,7 @@ XV000761,xed,tàlá-p-tàlá tá vɗú,,,he sharpened a sickle,,,,SN001324
 XV000762,xed,tàl-ú-tàlá vɗú,,,the sickle is well sharpened,,,,SN001324
 XV000763,xed,tán-tán vàzák tá lá-ghà tántán,,,It is Rooster that arrived first.,,,,SN001333
 XV000764,xed,tíngìl vàzák tá lá-ghà,,,rooster arrived first,,,,SN001338
-XV000765,xed,tá-ná-ghá-tá,,,to add more,,,,SN001342
+XV000765,xed,tá-ná-ghá-tá,,,to add more,,,2e6eb2b64370c991936dc0aa6179f075,SN001342
 XV000766,xed,tà-ná-w-gh-tà,,,to diminish (comes from ‘take from the top’),,,,SN001342
 XV000767,xed,tápá-ná-tápá tá ɗálì,,,he tasted the sauce,,,,SN001344
 XV000768,xed,tápá-n-tápá tá ɗálì,,,he tasted the sauce a little bit; the transitive predication ungrammatical without 'ná' or 'n',,,,SN001344
@@ -786,19 +786,19 @@ XV000784,xed,vrá-gh-ú-vrá tà lúmá,,,he returned to the market,,,,SN001372
 XV000785,xed,vrà-gá-ná-tá tsá màrkw-í-íŋní ká-’á,,,"I will make my wife return (to us), he said",,,,SN001372
 XV000786,xed,"vrà-gá-vr-í, vrà-k-vr-í",,,I returned,,,,SN001372
 XV000787,xed,vrà-gá-vr-í dzághà,,,I returned home,,,,SN001372
-XV000788,xed,vrà-gá-f-vrà,,,return,,,,SN001372
+XV000788,xed,vrà-gá-f-vrà,,,return,,,4140970f221d063d6200217849ae4315,SN001372
 XV000789,xed,vrə̀-gl-à-ná-f-vrá-lú,,,one has started,,,,SN001372
 XV000790,xed,kà vrà-gá-tá ì ngax ngax,,,Ngah-ngah and his people returned,,,,SN001372
 XV000791,xed,kà vrə̀-glà-k-tá xə̀n . . .,,,and they returned again,,,,SN001372
-XV000792,xed,vwàx á xyá,,,cornfield,,,,SN001374
-XV000793,xed,vwàxá blíwá,,,field of sweet potato,,,,SN001374
-XV000794,xed,vwàxá ùrná,,,peanuts field,,,,SN001374
-XV000795,xed,vwàxá mákú ndá ghwàndàlá,,,sesame and peanut field,,,,SN001374
-XV000796,xed,vzà-gá-f-vzà,,,to throw from below up,,,,SN001379
-XV000797,xed,vzá-gh-ó-vzá,,,to throw back,,,,SN001379
-XV000798,xed,vzá-ná-vzá,,,to throw for somebody,,,,SN001381
-XV000799,xed,vzá-vzá,,,to throw and leave,,,,SN001381
-XV000800,xed,vz-ìŋ-vzà,,,to throw away,,,,SN001381
+XV000792,xed,vwàx á xyá,,,cornfield,,,140736efe5f40e6e3795523f17f04562,SN001374
+XV000793,xed,vwàxá blíwá,,,field of sweet potato,,,b103d5ff7a4bb346d229ebb0fa97642a,SN001374
+XV000794,xed,vwàxá ùrná,,,peanuts field,,,f4ac18048b0e92b37b35268bf6521509,SN001374
+XV000795,xed,vwàxá mákú ndá ghwàndàlá,,,sesame and peanut field,,,4703009695d69d319644919645a684b2,SN001374
+XV000796,xed,vzà-gá-f-vzà,,,to throw from below up,,,a30519cb6d69d2ca2e5c7416150e85cd,SN001379
+XV000797,xed,vzá-gh-ó-vzá,,,to throw back,,,f8d086701b3b6888d4676a695219a293,SN001379
+XV000798,xed,vzá-ná-vzá,,,to throw for somebody,,,bb9c6f3017b91a3591bfc014b13505e0,SN001381
+XV000799,xed,vzá-vzá,,,to throw and leave,,,f4674d62bd33956369983b5ef038d7ac,SN001381
+XV000800,xed,vz-ìŋ-vzà,,,to throw away,,,6cf31f05482456792a27fa2a81ba312c,SN001381
 XV000801,xed,và-f-và vù,,,the fire lit up,,,,SN001383
 XV000802,xed,v-í-n-và,,,he lit,,,,SN001383
 XV000803,xed,v-í-n-vá-ká,,,did you light up?,,,,SN001383
@@ -834,9 +834,9 @@ XV000832,xed,xgà-xgá yàghí tá krì,,,Squirrel invited Dog,,,,SN001467
 XV000833,xed,xgà-gá-f-xgà,,,call him up here,,,,SN001467
 XV000834,xed,xgà-xgà,,,they called him to come,,,,SN001467
 XV000835,xed,xgà-n-tì í tá ùvá wà ká yàghí,,,“I will not invite the cat” said the squirrel.,,,,SN001467
-XV000836,xed,xlá,,,gather!,,,,SN001471
+XV000836,xed,xlá,,,gather!,,,6e518ad6022569b68c483bf4b7fd3310,SN001471
 XV000837,xed,xlá-f xla´-xlà xla´-ùtà-ni,,,gathered,,,,SN001471
-XV000838,xed,xlá-ghá-xlá,,,to gather and leave,,,,SN001471
+XV000838,xed,xlá-ghá-xlá,,,to gather and leave,,,107ae37606c1f403c778923e808dd891,SN001471
 XV000839,xed,x-á-n-áy,,,slaughter many,,,,SN001473
 XV000840,xed,snà-n-sn-íyù tá xn-áy-tá n tá hlà,,,I heard that they slaughtered a cow; see 'xná': slaughter,,,,SN001473
 XV000841,xed,xpàɗá tá úrnà,,,chew the peanuts,,,,SN001475
@@ -873,10 +873,10 @@ XV000871,xed,xú’wá-xú’wá tá xpú tà xúnà,,,she ground flour on a gri
 XV000872,xed,xú’ú-xwá,,,it is already ground,,,,SN001542
 XV000873,xed,xú’w-áná-xú’wà,,,she ground for him,,,,SN001542
 XV000874,xed,xí’ídá xí’ídá,,,he bit him,,,,SN001546
-XV000875,xed,"yá-yà-yá-yà, yà-f-yà",,,give birth,,,,SN001552
+XV000875,xed,"yá-yà-yá-yà, yà-f-yà",,,give birth,,,f177ef01c8deea22eda61e402a6ae4d2,SN001552
 XV000876,xed,yá-yà tá mákwà,,,she gave birth to a daughter,,,,SN001552
 XV000877,xed,yà-gá-f-yà,,,give birth and come,,,,SN001552
-XV000878,xed,yà-gá-ghà-yà,,,give birth and bring,,,,SN001552
+XV000878,xed,yà-gá-ghà-yà,,,give birth and bring,,,40a7e4260a04c40629a6073a63356bae,SN001552
 XV000879,xed,y-ù-yà tsá fù yà,,,"this tree multiplied, this yield a lot",,,,SN001567
 XV000880,xed,ldrá ldrà,,,to pierce,,,,SN001580
 XV000881,xed,zlə̀mbà-zlə̀mbà,,,"he threw stones, he fell",,,,SN001581
@@ -894,9 +894,9 @@ XV000892,xed,zlr-ín-zlrà tá ìmí,,,he unplugged the water,,,,SN001589
 XV000893,xed,"zl-íɗ-ìn-wá-zlá, zl-í-xà-",,,he released me (for my benefit),,,,SN001592
 XV000894,xed,zlá-ŋ-nàn-wá-zlá ká-xə̀n,,,"“leave (Pl) it for us,” they said.",,,,SN001592
 XV000895,xed,kà zlá-ná-vá-tá kúkù,,,and pigeon left it,,,,SN001592
-XV000896,xed,zlíbá mbùlúx,,,leather bag,,,,SN001593
+XV000896,xed,zlíbá mbùlúx,,,leather bag,,,977fecac6a9a41ad834f270e63d55d00,SN001593
 XV000897,xed,zú-úú-zá,,,let us eat!,,,,SN001619
-XV000898,xed,zà-p-zà,,,it has been forgotten,,,,SN001620
+XV000898,xed,zà-p-zà,,,it has been forgotten,,,f6b5c12f514ce46e4b199fdecbc078a6,SN001620
 XV000899,xed,zà-ná-pzà tá krá-nì,,,he forgot his dog,,,,SN001620
 XV000900,xed,zà-k-zà,,,he ate and came,,,,SN001621
 XV000901,xed,z-á-z-ú-z-á-zà,,,he ate everything,,,,SN001621
@@ -910,4 +910,4 @@ XV000908,xed,zú-z-ì,,,I ate up,,,,SN001621
 XV000909,xed,zá-ghú-zá ɗwàk tá mndrá-ní,,,the termites have eaten its bottom (the rest is there),,,,SN001621
 XV000910,xed,zì-á-n-zí-íyù tá drá-kú-á-ní,,,I smelled it burn,,,,SN001659
 XV000911,xed,ì krì ndá pákáwá ghúvì,,,dog and hyena,,,,SN001672
-XV000912,xed,ùvá dàzán,,,a type of cat,,,,SN001692
+XV000912,xed,ùvá dàzán,,,a type of cat,,,4c4f27eb5595e6cdccf3893c1bb1e9d6,SN001692

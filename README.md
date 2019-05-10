@@ -1,11 +1,11 @@
-
 # Hdi dictionary
 
 > by Zygmunt Frajzyngier and Paul Eguchi and Roger Prafé and Megan Schwabauer with Erin Shay and Henry Tourneux
 
 This repository contains the data underlying the published version of the dictionary
-at [Dictionaria](https://dictionaria.clld.org/contributions/hdi) as 
-[CLDF](https://cldf.clld.org) [Dictionary](cldf).
+at [Dictionaria](https://dictionaria.clld.org/contributions/hdi) as [CLDF](https://cldf.clld.org) 
+[Dictionary](cldf) 
+![Build Status](https://travis-ci.org/dictionaria/hdi.svg?branch=master)](https://travis-ci.org/dictionaria/hdi)
 
 Releases of this repository are archived with and accessible through 
 [ZENODO](https://zenodo.org/communities/dictionaria) and the latest release
