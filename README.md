@@ -6831,16 +6831,16 @@ If there is a specific indirect object in the proposition, the indirect object i
 </div>
 </div>
 <h3 id="Content questions">Content questions</h3>
-<p>Content questions differ from polar questions in the aspectual system used, the question words used, 
+<p>Content questions differ from polar questions in the aspectual system used, the question words used,
     and the clause-final interrogative marker, which is <em>nà</em> rather than <em>rà</em>.
-    The clause-final question marker <em>nà</em> is not obligatory. 
-    Content questions are characterized by use of the dependent perfective and imperfective aspects. 
+    The clause-final question marker <em>nà</em> is not obligatory.
+    Content questions are characterized by use of the dependent perfective and imperfective aspects.
     The following semantic categories are coded in content questions: human participant, coded by the question word <em>wá</em>;
-    non-human participant, coded by the question words <em>nə́</em> in the de dicto domain and <em>nú</em> in the de re domain; 
-    questions about place, coded by the question word <em>gá</em>; questions about time coded by the question word, <em>yà</em>; 
-    questions about manner, coded by the question word <em>kí</em>; and reason, marked by the form <em>nə́</em> ‘what’ followed by the 
-    copula <em>yà</em>, realized as <em>ní-yà</em>. The language also codes the grammatical role of the argument that the question is about, specifically the categories subject, object, indirect object, 
-    and associative, and questions about the heads of the modifying construction. Content questions about a non-human participant also code, through different forms of the question word, 
+    non-human participant, coded by the question words <em>nə́</em> in the de dicto domain and <em>nú</em> in the de re domain;
+    questions about place, coded by the question word <em>gá</em>; questions about time coded by the question word, <em>yà</em>;
+    questions about manner, coded by the question word <em>kí</em>; and reason, marked by the form <em>nə́</em> ‘what’ followed by the
+    copula <em>yà</em>, realized as <em>ní-yà</em>. The language also codes the grammatical role of the argument that the question is about, specifically the categories subject, object, indirect object,
+    and associative, and questions about the heads of the modifying construction. Content questions about a non-human participant also code, through different forms of the question word,
     whether the event is referential or not. </p>
 <p>In questions about the subject of equational clause, the subject precedes the predicate and the interrogative modality is marked by the clause-final particle <em>nà</em>:</p>
 <div class="sentence-wrapper">
@@ -9232,3 +9232,4 @@ If there is a specific indirect object in the proposition, the indirect object i
 <li>Vaughan, James H. and Anthony H. M. Kirk-Greene (eds.). 1995. The Diary of Hamman Yaji. Chronicle of a West African Muslim Ruler. Bloomington/Indianapolis: Indiana University Press.</li>
 </ul>
 </div>
+

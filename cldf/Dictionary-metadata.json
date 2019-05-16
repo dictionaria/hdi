@@ -221,7 +221,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#translatedText",
-                        "required": true,
+                        "required": false,
                         "name": "Translated_Text"
                     },
                     {
@@ -267,7 +267,7 @@
             "url": "examples.csv"
         },
         {
-            "dc:extent": 165,
+            "dc:extent": 921,
             "tableSchema": {
                 "columns": [
                     {
