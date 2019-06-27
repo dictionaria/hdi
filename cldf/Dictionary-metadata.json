@@ -52,10 +52,6 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Homonym"
-                    },
-                    {
-                        "datatype": "string",
                         "separator": " ; ",
                         "name": "Media_IDs"
                     },
@@ -191,7 +187,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 912,
+            "dc:extent": 911,
             "tableSchema": {
                 "columns": [
                     {
@@ -256,6 +252,10 @@
                         "datatype": "string",
                         "separator": " ; ",
                         "name": "Sense_IDs"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "alt_translation1"
                     }
                 ],
                 "foreignKeys": [

@@ -17,9 +17,6 @@
     "number": 2,
     "doi": "10.5281/zenodo.3067649",
     "properties": {
-        "entry_id": "lx",
-        "entry_sep": "\\lx",
-        "entry_label_as_regex_for_link": "[^;]+",
         "marker_map": {
             "ge": "de",
             "zcom2": "zcom1",
@@ -38,9 +35,6 @@
             "ge": "Gloss",
             "dn": "alt_translation1"
         },
-        "process_links_in_labels": [
-            "cf", "mn"
-        ],
         "custom_fields": ["French"],
         "metalanguages": {
             "gxx": "French"
