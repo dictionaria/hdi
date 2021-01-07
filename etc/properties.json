@@ -1,0 +1,24 @@
+{
+    "marker_map": {
+        "ge": "de",
+        "zcom2": "zcom1",
+        "xn": "xo"
+    },
+    "labels": {
+        "cm": "comment",
+        "cmf": "comment [fr]"
+    },
+    "entry_map": {
+        "cm": "comment",
+        "cmf": "comment_french",
+        "va": "Variant_Form"
+    },
+    "sense_map": {
+        "ge": "Gloss",
+        "dn": "alt_translation1"
+    },
+    "custom_fields": ["French"],
+    "metalanguages": {
+        "gxx": "French"
+    }
+}
