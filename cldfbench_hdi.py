@@ -1,6 +1,34 @@
+from collections import ChainMap
 import pathlib
 
+from pydictionaria.formats import sfm
+from pydictionaria.formats.sfm_lib import Database as SFM
+
 from cldfbench import Dataset as BaseDataset
+
+
+def with_defaults(properties):
+    new_props = {
+        'entry_sep': properties.get('entry_sep') or '\\lx ',
+        'marker_map': ChainMap(
+            properties.get('entry_map') or {}, sfm.DEFAULT_MARKER_MAP),
+    }
+    new_props.update(
+        (k, v) for k, v in properties.items() if k not in new_props)
+    return new_props
+
+
+def amend_cldf_schema(cldf, properties):
+    cldf.add_component(
+        'ExampleTable',
+        {
+            'datatype': 'string',
+            'separator': ' ; ',
+            'name': 'Sense_IDs',
+        })
+
+    cldf.add_foreign_key(
+        'ExampleTable', 'Sense_IDs', 'SenseTable', 'ID')
 
 
 class Dataset(BaseDataset):
@@ -8,7 +36,10 @@ class Dataset(BaseDataset):
     id = "hdi"
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
-        return super().cldf_specs()
+        return CLDFSpec(
+            dir=self.cldf_dir,
+            module='Dictionary',
+            metadata_fname='cldf-metadata.json')
 
     def cmd_download(self, args):
         """
@@ -24,3 +55,20 @@ class Dataset(BaseDataset):
 
         >>> args.writer.objects['LanguageTable'].append(...)
         """
+
+        # read data
+
+        properties = with_defaults(self.etc_dir.read_json('properties.json'))
+
+        sfm = SFM.from_file(
+            self.raw_dir / 'db.sfm',
+            marker_map=properties['marker_map'],
+            entry_sep=properties['entry_sep'])
+
+        # cldf schema
+
+        amend_cldf_schema(args.writer.cldf, properties)
+
+        # processing
+
+        # output
