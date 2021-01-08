@@ -3,15 +3,22 @@ import pathlib
 
 from pydictionaria.formats import sfm
 from pydictionaria.formats.sfm_lib import Database as SFM
+from pydictionaria import sfm2cldf
 
-from cldfbench import Dataset as BaseDataset
+from cldfbench import CLDFSpec, Dataset as BaseDataset
 
 
 def with_defaults(properties):
     new_props = {
-        'entry_sep': properties.get('entry_sep') or '\\lx ',
+        'entry_sep': properties.get('entry_sep') or sfm2cldf.DEFAULT_ENTRY_SEP,
         'marker_map': ChainMap(
             properties.get('entry_map') or {}, sfm.DEFAULT_MARKER_MAP),
+        'entry_map': ChainMap(
+            properties.get('entry_map') or {}, sfm2cldf.DEFAULT_ENTRY_MAP),
+        'sense_map': ChainMap(
+            properties.get('sense_map') or {}, sfm2cldf.DEFAULT_SENSE_MAP),
+        'example_map': ChainMap(
+            properties.get('example_map') or {}, sfm2cldf.DEFAULT_EXAMPLE_MAP),
     }
     new_props.update(
         (k, v) for k, v in properties.items() if k not in new_props)
@@ -60,7 +67,7 @@ class Dataset(BaseDataset):
 
         properties = with_defaults(self.etc_dir.read_json('properties.json'))
 
-        sfm = SFM.from_file(
+        sfm = SFM(
             self.raw_dir / 'db.sfm',
             marker_map=properties['marker_map'],
             entry_sep=properties['entry_sep'])
