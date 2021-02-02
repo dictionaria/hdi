@@ -1,41 +1,11 @@
 from collections import ChainMap
 import pathlib
 
-from pydictionaria.formats import sfm
+from pydictionaria.formats import sfm as formats_sfm
 from pydictionaria.formats.sfm_lib import Database as SFM
 from pydictionaria import sfm2cldf
 
 from cldfbench import CLDFSpec, Dataset as BaseDataset
-
-
-def with_defaults(properties):
-    new_props = {
-        'entry_sep': properties.get('entry_sep') or sfm2cldf.DEFAULT_ENTRY_SEP,
-        'marker_map': ChainMap(
-            properties.get('entry_map') or {}, sfm.DEFAULT_MARKER_MAP),
-        'entry_map': ChainMap(
-            properties.get('entry_map') or {}, sfm2cldf.DEFAULT_ENTRY_MAP),
-        'sense_map': ChainMap(
-            properties.get('sense_map') or {}, sfm2cldf.DEFAULT_SENSE_MAP),
-        'example_map': ChainMap(
-            properties.get('example_map') or {}, sfm2cldf.DEFAULT_EXAMPLE_MAP),
-    }
-    new_props.update(
-        (k, v) for k, v in properties.items() if k not in new_props)
-    return new_props
-
-
-def amend_cldf_schema(cldf, properties):
-    cldf.add_component(
-        'ExampleTable',
-        {
-            'datatype': 'string',
-            'separator': ' ; ',
-            'name': 'Sense_IDs',
-        })
-
-    cldf.add_foreign_key(
-        'ExampleTable', 'Sense_IDs', 'SenseTable', 'ID')
 
 
 class Dataset(BaseDataset):
@@ -63,19 +33,76 @@ class Dataset(BaseDataset):
         >>> args.writer.objects['LanguageTable'].append(...)
         """
 
+        # XXX maybe include in properties?
+        isocode = 'xed'
+        glottocode = 'hdii1240'
+        langname = 'Hdi'
+
         # read data
 
-        properties = with_defaults(self.etc_dir.read_json('properties.json'))
+        properties = self.etc_dir.read_json('properties.json')
 
+        marker_map = ChainMap(
+            properties.get('marker_map') or {},
+            formats_sfm.DEFAULT_MARKER_MAP)
+        entry_sep = properties.get('entry_sep') or sfm2cldf.DEFAULT_ENTRY_SEP
         sfm = SFM(
             self.raw_dir / 'db.sfm',
-            marker_map=properties['marker_map'],
-            entry_sep=properties['entry_sep'])
+            marker_map=marker_map,
+            entry_sep=entry_sep)
 
-        # cldf schema
+        examples = formats_sfm.load_examples(self.raw_dir / 'examples.sfm')
 
-        amend_cldf_schema(args.writer.cldf, properties)
+        if (self.etc_dir / 'cdstar.json').exists():
+            media_catalog = self.etc_dir.read_json('cdstar.json')
+        else:
+            media_catalog = {}
 
-        # processing
+        with open(self.dir / 'cldf.log', 'w', encoding='utf-8') as log_file:
+            log_name = '%s.cldf' % isocode
+            cldf_log = sfm2cldf.make_log(log_name, log_file)
+
+            # processing
+
+            entries, senses, examples, media = sfm2cldf.process_dataset(
+                self.id, isocode, properties,
+                sfm, examples, media_catalog=media_catalog,
+                glosses_path=self.raw_dir / 'glosses.flextext',
+                examples_log_path=self.dir / 'examples.log',
+                glosses_log_path=self.dir / 'glosses.log',
+                cldf_log=cldf_log)
+
+            # cldf schema
+
+            sfm2cldf.make_cldf_schema(
+                args.writer.cldf, properties,
+                entries, senses, examples, media)
+
+            sfm2cldf.attach_column_titles(args.writer.cldf, properties)
+
+            print(file=log_file)
+
+            entries = sfm2cldf.ensure_required_columns(
+                args.writer.cldf, 'EntryTable', entries, cldf_log)
+            senses = sfm2cldf.ensure_required_columns(
+                args.writer.cldf, 'SenseTable', senses, cldf_log)
+            examples = sfm2cldf.ensure_required_columns(
+                args.writer.cldf, 'ExampleTable', examples, cldf_log)
+            media = sfm2cldf.ensure_required_columns(
+                args.writer.cldf, 'media.csv', media, cldf_log)
+
+            entries = sfm2cldf.remove_senseless_entries(
+                senses, entries, cldf_log)
 
         # output
+
+        args.writer.objects['LanguageTable'] = [
+            {
+                'ID': isocode,
+                'Name': langname,
+                'ISO639P3code': isocode,
+                'Glottocode': glottocode}]
+        args.writer.objects['EntryTable'] = entries
+        args.writer.objects['SenseTable'] = senses
+        args.writer.objects['ExampleTable'] = examples
+        args.writer.objects['media.csv'] = media
