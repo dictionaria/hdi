@@ -1,0 +1,39 @@
+{
+    "authors": [
+        {"name": "Zygmunt Frajzyngier","primary": true},
+        {"name": "Paul Eguchi","primary": true},
+        {"name": "Roger Prafé","primary": true},
+        {"name": "Megan Schwabauer","primary": true},
+        {"name": "Erin Shay","primary": false},
+        {"name": "Henry Tourneux","primary": false}
+    ],
+    "language": {
+        "name": "Hdi",
+        "isocode": "xed",
+        "glottocode": "hdii1240"
+    },
+    "date_published": "2017-12-30",
+    "number": 2,
+    "properties": {
+        "marker_map": {
+            "ge": "de",
+            "zcom2": "zcom1",
+            "xn": "xo"
+        },
+        "entry_map": {
+            "cm": "Comment",
+            "cmf": "Comment_French"
+        },
+        "sense_map": {
+            "ge": "Gloss",
+            "dn": "alt_translation1"
+        },
+        "metalanguages": {
+            "gxx": "French"
+        },
+        "labels": {
+            "cmf": "Comment (French)"
+        },
+        "custom_fields": ["French"]
+    }
+}

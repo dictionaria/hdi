@@ -8,6 +8,24 @@ from pydictionaria import sfm2cldf
 from cldfbench import CLDFSpec, Dataset as BaseDataset
 
 
+def authors_string(authors):
+    def is_primary(a):
+        return not isinstance(a, dict) or a.get('primary', True)
+
+    primary = ' and '.join(
+        a['name'] if isinstance(a, dict) else a
+        for a in authors
+        if is_primary(a))
+    secondary = ' and '.join(
+        a['name']
+        for a in authors
+        if not is_primary(a))
+    if primary and secondary:
+        return '{} with {}'.format(primary, secondary)
+    else:
+        return primary or secondary
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "hdi"
@@ -33,14 +51,14 @@ class Dataset(BaseDataset):
         >>> args.writer.objects['LanguageTable'].append(...)
         """
 
-        # XXX maybe include in properties?
-        isocode = 'xed'
-        glottocode = 'hdii1240'
-        langname = 'Hdi'
-
         # read data
 
-        properties = self.etc_dir.read_json('properties.json')
+        md = self.etc_dir.read_json('md.json')
+        properties = md.get('properties') or {}
+        language_name = md['language']['name']
+        isocode = md['language']['isocode']
+        language_id = md['language']['isocode']
+        glottocode = md['language']['glottocode']
 
         marker_map = ChainMap(
             properties.get('marker_map') or {},
@@ -59,13 +77,13 @@ class Dataset(BaseDataset):
             media_catalog = {}
 
         with open(self.dir / 'cldf.log', 'w', encoding='utf-8') as log_file:
-            log_name = '%s.cldf' % isocode
+            log_name = '%s.cldf' % language_id
             cldf_log = sfm2cldf.make_log(log_name, log_file)
 
             # processing
 
             entries, senses, examples, media = sfm2cldf.process_dataset(
-                self.id, isocode, properties,
+                self.id, language_id, properties,
                 sfm, examples, media_catalog=media_catalog,
                 glosses_path=self.raw_dir / 'glosses.flextext',
                 examples_log_path=self.dir / 'examples.log',
@@ -96,12 +114,17 @@ class Dataset(BaseDataset):
 
         # output
 
-        args.writer.objects['LanguageTable'] = [
-            {
-                'ID': isocode,
-                'Name': langname,
-                'ISO639P3code': isocode,
-                'Glottocode': glottocode}]
+        args.writer.cldf.properties['dc:creator'] = authors_string(
+            md.get('authors') or ())
+
+        language = {
+            'ID': language_id,
+            'Name': language_name,
+            'ISO639P3code': isocode,
+            'Glottocode': glottocode,
+        }
+        args.writer.objects['LanguageTable'] = [language]
+
         args.writer.objects['EntryTable'] = entries
         args.writer.objects['SenseTable'] = senses
         args.writer.objects['ExampleTable'] = examples

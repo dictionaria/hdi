@@ -2,7 +2,7 @@ appdirs==1.4.3
 certifi==2019.11.28
 chardet==3.0.4
 cldfbench==1.3.0
--e git+https://github.com/dictionaria/hdi@ae91f787c6705edeb2722879dee5e22261857fd8#egg=cldfbench_hdi
+-e git+https://github.com/dictionaria/hdi@2b0012df504637965cd0d1fa8feae9fe0f9343b8#egg=cldfbench_hdi
 cldfcatalog==1.3.0
 clldutils==3.6.0
 colorama==0.4.3
@@ -21,7 +21,7 @@ pybtex==0.24.0
 pycldf==1.18.0
 pyconcepticon==2.7.0
 pycountry==20.7.3
--e git+git@github.com:dictionaria/pydictionaria@ef3ccb740fbdd05dd24d07650cb3df1303a9bac5#egg=pydictionaria
+-e git+git@github.com:dictionaria/pydictionaria@00c5bff744ee16d68a682c1c7cffe0ae9635c3f9#egg=pydictionaria
 pyglottolog==3.3.0
 pytest==6.2.1
 requests==2.22.0
