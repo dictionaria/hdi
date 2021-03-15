@@ -1,0 +1,44 @@
+{
+    "title": "dictionaria/hdi: Hdi Dictionary",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Dictionary",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Zygmunt Frajzyngier"
+        },
+        {
+            "name": "Paul Eguchi"
+        },
+        {
+            "name": "Roger Praf\u00e9"
+        },
+        {
+            "name": "Megan Schwabauer"
+        },
+        {
+            "name": "Erin Shay"
+        },
+        {
+            "name": "Henry Tourneux"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "cldf-datasets"
+        },
+        {
+            "identifier": "clld"
+        },
+        {
+            "identifier": "dictionaria"
+        }
+    ],
+    "upload_type": "dataset",
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "description": "Frajzyngier, Zygmunt and Eguchi, Paul and Praf\u00e9, Roger and Schwabauer, Megan (with Erin Shay, Henry Tourneux). 2017. Hdi dictionary. Dictionaria 2. 1-1681. DOI: 10.5281/zenodo.3067648 (Available online at https://dictionaria.clld.org/contributions/hdi)"
+}

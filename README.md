@@ -1,13 +1,13 @@
-# Hdi dictionary
+# Hdi Dictionary
 
 > by Zygmunt Frajzyngier and Paul Eguchi and Roger Prafé and Megan Schwabauer with Erin Shay and Henry Tourneux
 
 This repository contains the data underlying the published version of the dictionary
-at [Dictionaria](https://dictionaria.clld.org/contributions/hdi) as [CLDF](https://cldf.clld.org) 
-[Dictionary](cldf) 
+at [Dictionaria](https://dictionaria.clld.org/contributions/hdi) as [CLDF](https://cldf.clld.org)
+[Dictionary](cldf)
 [![CLDF validation](https://github.com/dictionaria/hdi/workflows/CLDF-validation/badge.svg)](https://github.com/dictionaria/hdi/actions?query=workflow%3ACLDF-validation)
 
-Releases of this repository are archived with and accessible through 
+Releases of this repository are archived with and accessible through
 [ZENODO](https://zenodo.org/communities/dictionaria) and the latest release
 is published on the [Dictionaria website](https://dictionaria.clld.org).
 
