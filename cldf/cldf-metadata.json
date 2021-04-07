@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "git@github.com:dictionaria/hdi",
-            "dc:created": "v1.1-12-g97c8843"
+            "dc:created": "v1.1-13-gd5b2c30"
         },
         {
             "rdf:type": "prov:Entity",
