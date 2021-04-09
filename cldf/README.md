@@ -13,8 +13,8 @@ property | value
 [dc:creator](http://purl.org/dc/terms/creator) | Zygmunt Frajzyngier and Paul Eguchi and Roger Prafé and Megan Schwabauer with Erin Shay and Henry Tourneux
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://dictionaria.clld.org/contributions/hdi
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
-[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:dictionaria/hdi
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:dictionaria/hdi/tree/d5b2c30">git@github.com:dictionaria/hdi v1.1-13-gd5b2c30</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.3-treedb-fixes">Glottolog v4.3-treedb-fixes</a></li></ol>
+[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/dictionaria/hdi
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/dictionaria/hdi/tree/3ef1f44">dictionaria/hdi v1.1-14-g3ef1f44</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.3">Glottolog v4.3</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.8.5</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | hdi
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
