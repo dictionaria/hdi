@@ -1,10 +1,53 @@
 from collections import ChainMap
+import copy
 import pathlib
+import mimetypes
 
 from pydictionaria.sfm_lib import Database as SFM
 from pydictionaria import sfm2cldf
 
 from cldfbench import CLDFSpec, Dataset as BaseDataset
+
+MEDIA = '21625066'
+
+
+def iter_media(media, catalog, checksums):
+    checksums = {(r['objid'], r['fname']): r['md5'] for r in checksums}
+
+    for m in media:
+        m = dict(m)
+        comps = m['Download_URL'].unsplit().split('/')
+        objid, fname = comps[-2:]
+        fname = pathlib.Path(fname)
+        ext = mimetypes.guess_extension(m['Media_Type'])
+        assert ext in {'.mp3', '.jpg', '.wav'}, ext
+        m.update(
+            ID=checksums[objid, fname.name],
+            Name=f"{checksums[objid, fname.name]}{ext}",
+            Download_URL=f'https://zenodo.org/records/{MEDIA}/files/media.zip',
+            Path_In_Zip=f'media/{objid[:7]}/{objid}/{fname.name}',
+        )
+        yield m
+        if fname.suffix.lower() == '.mp3':
+            pass  # web.mp3 is the same file as the original mp3
+        elif fname.suffix.lower() == '.wav':
+            for derived in ['web.mp3']:
+                d = copy.copy(m)
+                d.update(
+                    ID=checksums[objid, derived],
+                    Name=f"{checksums[objid, derived]}.mp3",
+                    Path_In_Zip=f'media/{objid[:7]}/{objid}/{derived}')
+                yield d
+        elif fname.suffix.lower() == '.jpg':
+            for derived in ['web.jpg', 'thumbnail.jpg']:
+                d = copy.copy(m)
+                d.update(
+                    ID=checksums[objid, derived],
+                    Name=f"{checksums[objid, derived]}.jpg",
+                    Path_In_Zip=f'media/{objid[:7]}/{objid}/{derived}')
+                yield d
+        else:
+            raise ValueError(fname)
 
 
 def authors_string(authors):
@@ -90,6 +133,8 @@ class Dataset(BaseDataset):
                 cldf_log=cldf_log)
 
             # cldf schema
+            media = list(
+                iter_media(media, media_catalog, self.etc_dir.read_csv('md5sums.csv', dicts=True)))
 
             sfm2cldf.make_cldf_schema(
                 args.writer.cldf, properties,
